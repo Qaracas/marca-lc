@@ -28,8 +28,9 @@
 ;; el cursor, resaltándola con el aspecto `aspecto-marca-linea'.
 
 ;; Para usarlo desde Emacs basta con escribir lo siguiente en el
-;; fichero de inicio `~/.emacs': (require 'marca-lc) (add-hook
-;; 'text-mode-hook 'activa-modo-marca-línea-cursor)
+;; fichero de inicio `~/.emacs':
+;; (require 'marca-lc)
+;; (add-hook 'text-mode-hook 'activa-modo-marca-línea-cursor)
 
 (defvar var-modo-marca-línea-cursor nil
   "Variable para controlar el modo menor.")
